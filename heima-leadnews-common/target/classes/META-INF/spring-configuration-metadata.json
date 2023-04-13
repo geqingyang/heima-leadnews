@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "aliyun.oss",
+      "type": "com.heima.common.aliyun.GreenImageUploadScan",
+      "sourceType": "com.heima.common.aliyun.GreenImageUploadScan"
+    },
+    {
+      "name": "aliyun.oss",
+      "type": "com.heima.common.aliyun.GreenImageUrlScan",
+      "sourceType": "com.heima.common.aliyun.GreenImageUrlScan"
+    },
+    {
+      "name": "aliyun.oss",
+      "type": "com.heima.common.aliyun.GreenTextScan",
+      "sourceType": "com.heima.common.aliyun.GreenTextScan"
+    },
+    {
+      "name": "tess4j",
+      "type": "com.heima.common.tess4j.Tess4jClient",
+      "sourceType": "com.heima.common.tess4j.Tess4jClient"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.oss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenImageUploadScan"
+    },
+    {
+      "name": "aliyun.oss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenImageUrlScan"
+    },
+    {
+      "name": "aliyun.oss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenTextScan"
+    },
+    {
+      "name": "aliyun.oss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenImageUploadScan"
+    },
+    {
+      "name": "aliyun.oss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenImageUrlScan"
+    },
+    {
+      "name": "aliyun.oss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenTextScan"
+    },
+    {
+      "name": "aliyun.oss.scenes",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenImageUploadScan"
+    },
+    {
+      "name": "aliyun.oss.scenes",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.aliyun.GreenImageUrlScan"
+    },
+    {
+      "name": "tess4j.data-path",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.tess4j.Tess4jClient"
+    },
+    {
+      "name": "tess4j.language",
+      "type": "java.lang.String",
+      "sourceType": "com.heima.common.tess4j.Tess4jClient"
+    }
+  ],
+  "hints": []
+}

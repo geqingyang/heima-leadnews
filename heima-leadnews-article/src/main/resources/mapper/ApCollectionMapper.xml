@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.heima.article.mapper.ApCollectionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.heima.article.entity.ApCollection">
+        <id column="id" property="id" />
+        <result column="ap_user_id" property="apUserId" />
+        <result column="equipment_id" property="equipmentId" />
+        <result column="article_id" property="articleId" />
+        <result column="type" property="type" />
+        <result column="collection_time" property="collectionTime" />
+        <result column="published_time" property="publishedTime" />
+    </resultMap>
+
+</mapper>
